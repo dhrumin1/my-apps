@@ -1,4 +1,7 @@
-<!-- https://svelte.dev/examples#dom-event-forwarding -->
+<script>
+    export let value;
+    export let selected;  
+</script>   
 <style>
 	button {
 		font-family: 'Comic Sans MS', cursive;
@@ -15,10 +18,7 @@
         color: white;
     }
 </style>
-<script>
-    export let value;
-    export let selected;  
-</script>   
+
 <button class={value==selected?'active':''} on:click|preventDefault  >
 	{value}
 </button>

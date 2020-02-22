@@ -1,6 +1,6 @@
 
 <script>
-	import { Sound } from '../configs/store';
+	import { Sound } from './../configs/Store';
 	import Minutes from './Minutes.svelte';
 	import Counts from './Counts.svelte';
 	let Unit;

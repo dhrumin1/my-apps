@@ -1,9 +1,10 @@
 import App from './App.svelte';
 
 const app = new App({
-    target: document.body
+	target: document.body,
+	props: {
+		AppName: 'Peace Mantra'
+	}
 });
-
-window.app = app;
 
 export default app;

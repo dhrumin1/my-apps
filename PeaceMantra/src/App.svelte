@@ -1,7 +1,8 @@
-<h1>Peace Mantra</h1>
+<h1>{AppName}</h1>
 
 <script>
-	import { Sound } from './configs/store';
+	export let AppName;
+	import { Sound } from './configs/Store';
 	import Sounds from './comps/Sounds.svelte';
 	import Unit from './comps/Unit.svelte';
 	import Play from './comps/Play.svelte';

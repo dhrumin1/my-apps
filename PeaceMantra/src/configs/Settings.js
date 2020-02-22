@@ -50,7 +50,7 @@ let data = {
         }
     };
     
-export const settings =  data;
+export const Settings =  data;
 export const Minutes = data.Unit.M;
 export const Counts = data.Unit.C;
 export const Defaults = data.Defaults;

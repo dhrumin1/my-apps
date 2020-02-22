@@ -1,6 +1,6 @@
 <script>
-    import { CountDown } from '../configs/store';
-	import {Counts} from '../configs/settings.svelte';
+    import { CountDown } from './../configs/Store';
+	import {Counts} from './../configs/Settings';
     import StartButton from './StartButton.svelte';
     import UnitButton from './UnitButton.svelte';
     let selectedCount = Counts[0];

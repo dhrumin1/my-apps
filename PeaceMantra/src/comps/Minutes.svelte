@@ -1,6 +1,6 @@
 <script>
-    import { CountDown } from '../configs/store';
-	import {Minutes} from '../configs/settings.svelte';
+    import { CountDown } from './../configs/Store';
+	import { Minutes } from './../configs/Settings';
     import StartButton from './StartButton.svelte';
     import UnitButton from './UnitButton.svelte';
     let selectedMin = Minutes[0];
